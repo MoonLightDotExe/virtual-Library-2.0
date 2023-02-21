@@ -4,6 +4,7 @@ import Header from './components/Header';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import UdemyPage from './components/UdemyPage';
 import Library from './components/Library';
+import Youtube from './components/Youtube';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
                 <CourseCard />
               </>
             }></Route>
-            <Route path='/youtube' element={<UdemyPage />}></Route>
+            <Route path='/youtube' element={<Youtube />}></Route>
             <Route path='/library' element={<Library />}></Route>
             <Route path='/udemy' element={<UdemyPage />}></Route>
         </Routes>

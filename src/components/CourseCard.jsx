@@ -21,7 +21,7 @@ function CourseCard() {
                         </div>
                     </div>
                     <Link to="youtube"> <div className="card__side card__back">
-                        CLICK
+                        <div className="btn-link">CLICK</div>
                     </div> </Link>
                 </div>
                 <div className="card">
@@ -52,9 +52,9 @@ function CourseCard() {
                             </div>
                         </div>
                     </div>
-                    <div className="card__side card__back">
-                        <Link to="udemy">CLICK</Link>
-                    </div>
+                    <Link to="udemy"><div className="card__side card__back">
+                        <div className="btn-link">CLICK</div>
+                    </div></Link>
                 </div>
             </div>
     </>
