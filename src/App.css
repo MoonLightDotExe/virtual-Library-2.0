@@ -84,6 +84,12 @@ html{
   opacity: 0;
 }
 
+.youtube{
+  width: 100%;
+  border-radius: 1rem;
+  height: 40%;
+}
+
 .container{
   display: flex;
   justify-content: space-evenly;
@@ -100,13 +106,13 @@ html{
 
 .card{
   height: 50rem;
-  background-color: red;
   position: relative;
   perspective: 250rem;
 }
 
 .card__side{
   backface-visibility: hidden;
+  border-radius: 1rem;
 }
 
 .card__front{
@@ -133,6 +139,8 @@ html{
   transition: all .8s;
   height: 50rem;
   width: 25rem;
+  text-align: center;
+  padding-top: 25rem;
 }
 
 .card:hover .card__front{
@@ -176,4 +184,19 @@ html{
   justify-content: space-evenly;
   height: 100vh;
   padding-top: 10rem;
+}
+
+.card__text{
+  text-transform: uppercase;
+}
+
+.card__heading{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.card__desc{
+  font-size: 1.75rem;
+  text-align: center;
 }
